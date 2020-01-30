@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard'
 
 export default class App extends React.Component {
   state = {
-    isLoggedIn: true,
+    isLoggedIn: false,
     username: ''
   }
   onLogin = () => {
